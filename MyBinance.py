@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-""" mybinance.py - Shows specified cryptocurrency values """
-# Copyright (c) 2017-2018 ardeshirv@protonmail.com, Licensed under GPLv3+
+""" mybinance.py - Show specified cryptocurrency values by binance.com API """
+# Copyright (c) 2017-2019 ardeshirv@protonmail.com, Licensed under GPLv3+
 import time
 import color
 import urllib3
 import platform
 from MyBinanceAPI import *
 # from binance.exceptions import *
+# sudo -H pip3 install -U cryptography
 from binance.client import Client
 
 
@@ -181,7 +182,7 @@ class MyBinance:
 def print_title_and_copyright():
     blnColor = False if (platform.system() == 'Windows') else True
     strAppName = "MyBinance"
-    strAppYear = "2017-2018"
+    strAppYear = "2017-2019"
     strAppDescription = "Shows specified cryptocurrency values"
     strVersion = "1.0"
     strLicense = "GPLv3+"
@@ -208,8 +209,3 @@ def FormatCopyright(strAppYear, strCopyright, strLicense, blnColor):
 if __name__ == "__main__":
     from sys import exit
     exit(main())
-
-
-'''
-sudo pip3 install -U cryptography
-'''
