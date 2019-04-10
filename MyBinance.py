@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """ mybinance.py - Show specified cryptocurrency values by binance.com API """
 # Copyright (c) 2017-2019 ardeshirv@protonmail.com, Licensed under GPLv3+
+import sys
 import time
 import color
 import urllib3
@@ -91,8 +92,15 @@ def main():
 class MyBinance:
     def __init__(self):
         urllib3.disable_warnings()
-        self.client = Client(get_api_key(), get_api_secret(),
+        if get_api_key() != 'Enter your api key here':
+            self.client = Client(get_api_key(), get_api_secret(),
                              {"verify": False, "timeout": 20})
+        else:
+            strErr = ('Please specify correct \'\033[1;31mAPI key\033[0;31m' +
+                      '\' and \'\033[1;31mAPI secret\033[0;31m\' in MyBinan' +
+                      'ceAPI.py file')
+            print('\n\033[0;31m{0}\n{1}\033[0m'.format('Error:', strErr))
+            sys.exit(0)
 
     def get_client(self):
         return self.client
@@ -207,5 +215,4 @@ def FormatCopyright(strAppYear, strCopyright, strLicense, blnColor):
 
 
 if __name__ == "__main__":
-    from sys import exit
-    exit(main())
+    sys.exit(main())
