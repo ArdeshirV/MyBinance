@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """ mybinance.py - Show specified cryptocurrency values by binance.com API """
 # Copyright (c) 2017-2019 ardeshirv@protonmail.com, Licensed under GPLv3+
+
 import sys
 import time
 import color
