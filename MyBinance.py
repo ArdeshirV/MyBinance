@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ mybinance.py - Show specified cryptocurrency values by binance.com API """
-# Copyright (c) 2017-2019 ardeshirv@protonmail.com, Licensed under GPLv3+
+# Copyright (c) 2017-2019 ArdeshirV@protonmail.com, Licensed under GPLv3+
 import sys
 import time
 import color
@@ -9,7 +9,7 @@ import urllib3
 import platform
 from MyBinanceAPI import *
 # from binance.exceptions import *
-# sudo -H pip3 install -U cryptography
+# sudo -H pip3 install -U cryptography binance
 from binance.client import Client
 
 
@@ -194,7 +194,7 @@ def print_title_and_copyright():
     strAppDescription = "Shows specified cryptocurrency values"
     strVersion = "1.0"
     strLicense = "GPLv3+"
-    strCopyright = "ardeshirv@protonmail.com"
+    strCopyright = "ArdeshirV@protonmail.com"
     print(FormatTitle(strAppName, strAppDescription, strVersion, blnColor))
     print(FormatCopyright(strAppYear, strCopyright, strLicense, blnColor))
 
