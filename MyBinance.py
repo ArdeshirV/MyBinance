@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ mybinance.py - Show specified cryptocurrency values by binance.com API """
+<<<<<<< HEAD
 # Copyright (c) 2017-2019 ArdeshirV@protonmail.com, Licensed under GPLv3+
+=======
+# Copyright (c) 2017-2019 ardeshirv@protonmail.com, Licensed under GPLv3+
+
+>>>>>>> 1b0918019efc8dcb6fb2a64aa9c2d49d9e657f6b
 import sys
 import time
 import color
