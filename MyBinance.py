@@ -34,7 +34,7 @@ def main():
                 if len(prices) == 0:
                     warnings += 1
                     print(('\rWarning-[{0}]: Binance.com dosen\'t respond.' +
-                          ' Trying again afyer {1} second...').
+                          ' Trying again after {1} second...').
                           format(warnings, warning_waite_time), end='')
                     time.sleep(warning_waite_time)
                     print('\r', end='')
