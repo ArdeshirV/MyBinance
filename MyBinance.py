@@ -5,7 +5,7 @@ import sys
 import time
 import color
 import urllib3
-import platform
+from platform import system
 from MyBinanceAPI import *
 # from binance.exceptions import *
 # sudo -H pip3 install -U cryptography binance
