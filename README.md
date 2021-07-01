@@ -14,7 +14,7 @@ Demonstrate specified cryptocurrency values by binance.com API<br/><br/>
           </figure>          
           <figure>
             <figcaption>Ethereum|USDT|TUSD: 0x6E6465394D14975956cd1BD37ab4E35F2C60300E</figcaption>
-            <img src="https://raw.githubusercontent.com/ArdeshirV/resources/master/Wallets/Donation/QR/USDTether%200x6E6465394D14975956cd1BD37ab4E35F2C60300E.png">
+            <img src="https://raw.githubusercontent.com/ArdeshirV/resources/master/Wallets/Donation/QR/Ethereum%200x6E6465394D14975956cd1BD37ab4E35F2C60300E.png">
           </figure>
           <figure>
             <figcaption>Litecoin: LdfYVr2Lgyuwp9K5Dk4aUsUbUQ2Rr5TA1n</figcaption>
