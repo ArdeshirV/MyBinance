@@ -1,5 +1,5 @@
 # MyBinance
-Demonstrate specified cryptocurrency values by binance.com API<br/><br/>
+Demonstrates specified cryptocurrency values by binance.com API<br/><br/>
 <img alt="Run MyBinance" src="https://raw.githubusercontent.com/ArdeshirV/MyBinance/master/img/Run_MyBinance.png">
 
 <br/><br/>
