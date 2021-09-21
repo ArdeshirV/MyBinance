@@ -79,9 +79,9 @@ Demonstrates specified cryptocurrency values by binance.com API<br/><br/>
         </section>
       </article>
     </main>
+    <br/><br/>
     <footer>
         <p style="margin: auto;">
            Copyright&copy; 2017-2019 <a href="mailto:ArdeshirV@protonmail.com" alt="email">ArdeshirV@protonmail.com</a>, Licensed under GPL<sup>v3+</sup>
         <p/>
     </footer>
-    
